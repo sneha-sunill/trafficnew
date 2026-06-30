@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg:     #eef4fb;
+  --panel:  #ffffff;
+  --card:   #ffffff;
+  --muted:  #64748b;
+  --text:   #0f1e2e;
+  --brand:  #0284c7;
+  --green:  #059669;
+  --amber:  #d97706;
+  --red:    #dc2626;
+  --line:   #d1e3f0;
+}
+
+body {
+  background: linear-gradient(160deg, #e8f4fd, #f0f6fb 50%, #edf3f8);
+  min-height: 100vh;
+  color: var(--text);
+  font-family: Inter, 'Segoe UI', Arial, sans-serif;
+}
+
+select option { background: #ffffff; color: #0f1e2e; }
